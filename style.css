@@ -233,21 +233,3 @@ body {
     display: inline-block;
     line-height: 1em;
 }
-
-body .socials {
-    position: fixed;
-    display: block;
-    left: 20px;
-    bottom: 20px;
-    z-index: 9999;
-  }
-  body .socials > a {
-    display: block;
-    width: 30px;
-    opacity: 0.5;
-    transform: scale(var(--scale, 0.8));
-    transition: transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
-  }
-  body .socials > a:hover {
-    --scale: 1;
-  }
